@@ -1,0 +1,90 @@
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section
+{
+    background-color:rgb(54, 53, 53);
+    display: flex;
+    width: 1500px;
+    margin: 1rem;
+
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    transition: all 0.7s;
+    background-color: white;
+}
+i
+{
+    width: 100px;
+}
+button
+{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    font-size: 2.5rem;
+    padding: 3rem 0.3rem;
+    border: none;
+    border: 1px solid rgb(168, 159, 159);
+    border-top: none;
+    transition: background-color 0.3s;
+    margin: 0%;
+}
+p{
+    display: none;
+    margin-left: 20px;
+}
+#face:hover
+{
+    color: rgb(21, 99, 243);
+    background-color: white;
+    animation: transform 1s ease-in;
+    border: none; 
+    border-right: 5px solid rgb(21, 99, 243);
+
+}
+#twit:hover
+{
+    color: rgb(115, 191, 241);
+    background-color: white;
+    border: none; 
+    animation: transform 1s ease-in;
+    border-right: 5px solid rgb(115, 191, 241);
+}
+#goog:hover
+{
+    border: none; 
+    color: rgb(253, 14, 6);
+    border-right: 5px solid rgb(253, 14, 6);
+    background-color: white;
+}
+#ins:hover
+{
+    border: none; 
+    border-right: 5px solid rgba(88, 18, 18, 0.603);
+    color: rgba(88, 18, 18, 0.603);
+    background-color: white;
+}
+#wat:hover
+{
+    color: rgb(64, 202, 117);
+    border: nonE; 
+    border-right: 5px solid rgb(64, 202, 117);
+    background-color: white;
+}
+#pin:hover
+{
+    border: none; 
+    color: rgb(243, 73, 21);
+    border-right: 5px solid rgb(243, 73, 21);
+    background-color: white;
+}
+
